@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte │ Guillermo Lorca</title>
+    <link rel="icon" href="img/icono.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/obras.css">
+    <link rel="stylesheet" href="css/obras2.css">
+</head>
+<body>
+    <header>
+        <img calss="icono" src="img/icono.ico" width="40px" height="40px"><h2 class="logo">ARTE LORCA</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#9776;
+        </label>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+         <a href="Bio.html">bio</a>
+         <a href="Obras.html">obras</a>
+         <label for="check" class="esconder-menu">
+            &#215;
+        </label>
+    </nav>
+    </header>
+    </section>
+    <section>
+        <div class="ful-img" id="fulImgBox">
+            <img src="imgs/1.jpg" id="fulImg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+    
+        <h1><span>OBRAS  PERSONALES</span></h1>
+    
+        <div class="img-gallery">
+            <img src="img/obra1.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra2.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra3.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra4.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra5.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra6.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra7.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img/obra89.jpg" onclick="openFulImg(this.src)" alt="">
+        </div>
+    <script src="script/anima.js"></script>
+    </section>
+
+    <section class="slider-container">
+        <div class="slider-content">
+            <p></p>
+        </div>
+        <div class="slider-content">
+            <p></p>
+        </div>
+        <div class="slider-content">
+            <p></p>
+        </div>
+        <div class="slider-content">
+            <p></p>
+        </div>
+    </section>
+</body>
+<footer>
+    <a href="https://www.facebook.com/guillermo.huidobro?mibextid=ZbWKwL"><img src="img/facebook.png" width="50px" height="50px"></a> 
+     <a href="https://instagram.com/guillermolorcagarcia?igshid=YmMyMTA2M2Y="><img src="img/instagram.png" width="50px" height="50px"></a>
+     <p>2022 ©GUILLERMO LORCA </p>
+</footer>
+</html>
